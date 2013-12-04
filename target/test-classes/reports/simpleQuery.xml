@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperPrint xmlns="http://jasperreports.sourceforge.net/jasperreports/print" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/print http://jasperreports.sourceforge.net/xsd/jasperprint.xsd" name="simpleQuery" pageWidth="595" pageHeight="842" topMargin="20" leftMargin="30" bottomMargin="20" rightMargin="30" locale="zh_CN" timezone="Asia/Shanghai">
+	<property name="net.sf.jasperreports.export.xml.start.page.index" value="0"/>
+	<property name="net.sf.jasperreports.export.xml.end.page.index" value="0"/>
+	<property name="net.sf.jasperreports.export.xml.page.count" value="1"/>
+	<origin band="background"/>
+	<origin band="title"/>
+	<origin band="pageHeader"/>
+	<origin band="columnHeader"/>
+	<origin band="detail"/>
+	<origin band="columnFooter"/>
+	<origin band="pageFooter"/>
+	<origin band="lastPageFooter"/>
+	<origin band="summary"/>
+	<style name="zh" fontName="宋体" fontSize="18" isBold="true" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H"/>
+	<page>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625">
+			<reportElement uuid="15519399-eca6-44d5-9323-97b58fa5d4f9" key="staticText-2" style="zh" x="123" y="120" width="62" height="31" origin="3" srcId="1"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[图书ID]]></textContent>
+		</text>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625">
+			<reportElement uuid="df04ef23-9644-43cf-b86c-e7bbe313781e" key="staticText-3" style="zh" x="200" y="120" width="83" height="31" origin="3" srcId="2"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[图书作者]]></textContent>
+		</text>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625">
+			<reportElement uuid="7a580d26-1879-46f2-a245-3cdda1e78263" key="staticText-4" style="zh" x="291" y="120" width="191" height="31" origin="3" srcId="3"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[图书书名]]></textContent>
+		</text>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625" hyperlinkType="None" valueClass="java.lang.Integer">
+			<reportElement uuid="70807b4c-0c8d-4839-a843-f30f74c59986" key="textField" style="zh" x="123" y="171" width="62" height="33" origin="4" srcId="4"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[2]]></textContent>
+		</text>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625" hyperlinkType="None">
+			<reportElement uuid="9b33a908-e785-4ad1-b516-4db909b333fe" key="textField" style="zh" x="291" y="171" width="231" height="33" origin="4" srcId="5"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[轻量级Java EE企业应用实]]></textContent>
+		</text>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625" hyperlinkType="None">
+			<reportElement uuid="092748df-f52b-4820-a150-5d6c4cba5988" key="textField" style="zh" x="200" y="171" width="83" height="33" origin="4" srcId="6"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[李刚]]></textContent>
+		</text>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625" hyperlinkType="None" valueClass="java.lang.Integer">
+			<reportElement uuid="70807b4c-0c8d-4839-a843-f30f74c59986" key="textField" style="zh" x="123" y="216" width="62" height="33" origin="4" srcId="4"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[3]]></textContent>
+		</text>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625" hyperlinkType="None">
+			<reportElement uuid="9b33a908-e785-4ad1-b516-4db909b333fe" key="textField" style="zh" x="291" y="216" width="231" height="33" origin="4" srcId="5"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[Struts 2权威指南]]></textContent>
+		</text>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625" hyperlinkType="None">
+			<reportElement uuid="092748df-f52b-4820-a150-5d6c4cba5988" key="textField" style="zh" x="200" y="216" width="83" height="33" origin="4" srcId="6"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[李刚]]></textContent>
+		</text>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625">
+			<reportElement uuid="b1a64ef0-5c71-4cf7-95d2-dc38b17dd727" key="staticText-5" style="zh" x="256" y="747" width="103" height="23" origin="5" srcId="7"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[当前页码：]]></textContent>
+		</text>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625" hyperlinkType="None" valueClass="java.lang.Integer">
+			<reportElement uuid="4fdcb269-120d-4672-a897-c818ea37781e" key="textField" style="zh" x="369" y="747" width="140" height="23" origin="5" srcId="8"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[2]]></textContent>
+		</text>
+	</page>
+</jasperPrint>

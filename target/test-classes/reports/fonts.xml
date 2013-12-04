@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperPrint xmlns="http://jasperreports.sourceforge.net/jasperreports/print" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/print http://jasperreports.sourceforge.net/xsd/jasperprint.xsd" name="fonts" pageWidth="595" pageHeight="842" topMargin="20" leftMargin="20" bottomMargin="20" rightMargin="20" locale="zh_CN" timezone="Asia/Shanghai">
+	<property name="net.sf.jasperreports.export.xml.start.page.index" value="0"/>
+	<property name="net.sf.jasperreports.export.xml.end.page.index" value="0"/>
+	<property name="net.sf.jasperreports.export.xml.page.count" value="1"/>
+	<origin band="background"/>
+	<origin band="title"/>
+	<origin band="pageHeader"/>
+	<origin band="columnHeader"/>
+	<origin band="detail"/>
+	<origin band="columnFooter"/>
+	<origin band="pageFooter"/>
+	<page>
+		<text textAlignment="Center" verticalAlignment="Top" textHeight="25.15625" lineSpacingFactor="1.2578125" leadingOffset="-4.3945312">
+			<reportElement uuid="2fa5299a-cf9d-4e85-9130-b0d21a204447" x="20" y="21" width="555" height="31" origin="1" srcId="1"/>
+			<font size="20" isBold="false"/>
+			<textContent><![CDATA[Fonts]]></textContent>
+		</text>
+		<text textAlignment="Justified" verticalAlignment="Top" textHeight="123.265625" lineSpacingFactor="1.2578125" leadingOffset="-3.0761719">
+			<reportElement uuid="e9433227-246e-4038-ad06-cb354cd453e4" x="20" y="52" width="555" height="128" origin="1" srcId="2"/>
+			<font size="14"/>
+			<textContent><![CDATA[In iReport you can use all the system fonts you want, but to maximize the portability of the documents we suggest to use TTF Fonts installed using Tools > Options > iReport > Fonts. In this way fonts can be exported as font extensions for JasperReports and deployed as jar in any application.
+JasperReports provides a built-in font extension for the DejaVu fonts (Sans, Serif and Mono) which work well with all the character sets and are correctly displayed in PDF documents as well.]]></textContent>
+		</text>
+		<text textHeight="21.168365" lineSpacingFactor="1.0584183" leadingOffset="-5.1771545">
+			<reportElement uuid="77f15dae-1441-4a2b-89fc-ec09f5e8b6b6" x="132" y="276" width="400" height="28" origin="4" srcId="3"/>
+			<font fontName="华文隶书" size="20" isBold="false" pdfFontName="fonts/STLITI.TTF" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+			<textContent><![CDATA[轻量级Java EE企业应用实战 -- 华文隶书]]></textContent>
+		</text>
+		<text textHeight="26.396484" lineSpacingFactor="1.3198242" leadingOffset="-5.234375">
+			<reportElement uuid="e1532eca-a059-4d75-9b7c-43cb8fe50c38" x="132" y="333" width="400" height="28" origin="4" srcId="4"/>
+			<font fontName="微软雅黑" size="20" isBold="false" pdfFontName="fonts/msyh.ttf" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+			<textContent><![CDATA[轻量级Java EE企业应用实战 -- 微软雅黑]]></textContent>
+		</text>
+		<text textHeight="22.8125" lineSpacingFactor="1.140625" leadingOffset="-1.40625">
+			<reportElement uuid="15fd5534-14ba-47b7-a9a4-7458f8234515" x="132" y="393" width="400" height="28" origin="4" srcId="5"/>
+			<font fontName="楷体" size="20" isBold="false" pdfFontName="fonts/simkai.ttf" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+			<textContent><![CDATA[轻量级Java EE企业应用实战 -- 楷体]]></textContent>
+		</text>
+	</page>
+</jasperPrint>

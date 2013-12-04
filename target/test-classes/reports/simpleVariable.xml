@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperPrint xmlns="http://jasperreports.sourceforge.net/jasperreports/print" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/print http://jasperreports.sourceforge.net/xsd/jasperprint.xsd" name="simpleVariable" pageWidth="595" pageHeight="842" topMargin="20" leftMargin="30" bottomMargin="20" rightMargin="30" locale="zh_CN" timezone="Asia/Shanghai">
+	<property name="net.sf.jasperreports.export.xml.start.page.index" value="0"/>
+	<property name="net.sf.jasperreports.export.xml.end.page.index" value="0"/>
+	<property name="net.sf.jasperreports.export.xml.page.count" value="1"/>
+	<origin band="background"/>
+	<origin band="title"/>
+	<origin band="pageHeader"/>
+	<origin band="columnHeader"/>
+	<origin band="detail"/>
+	<origin band="columnFooter"/>
+	<origin band="pageFooter"/>
+	<origin band="lastPageFooter"/>
+	<origin band="summary"/>
+	<style name="zh" fontName="隶书" fontSize="18" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H"/>
+	<page>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625" hyperlinkType="None">
+			<reportElement uuid="454d94a3-cdcb-4243-9701-675d23137405" key="textField" style="zh" x="233" y="128" width="131" height="27" origin="3" srcId="1"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[李刚]]></textContent>
+		</text>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625">
+			<reportElement uuid="279182ed-01c5-4734-9441-7d54a73262f4" key="staticText-1" style="zh" x="167" y="128" width="56" height="27" origin="3" srcId="2"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[作者：]]></textContent>
+		</text>
+		<rectangle radius="5">
+			<reportElement uuid="b31876f5-26d1-49f5-8931-6c5ad9a001f8" key="rectangle-1" x="158" y="167" width="255" height="103" forecolor="#FFFFFF" backcolor="#99FFFF" origin="4" srcId="3"/>
+		</rectangle>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625" hyperlinkType="None">
+			<reportElement uuid="fab4685d-7a51-4ec6-86e7-581deca19971" key="textField" style="zh" mode="Opaque" x="167" y="173" width="241" height="28" backcolor="#FFFFFF" origin="4" srcId="4"/>
+			<box leftPadding="20">
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#FF9900"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#990099"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#99FFFF"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#FF0000"/>
+			</box>
+			<textContent><![CDATA[疯狂Java讲义]]></textContent>
+		</text>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625" hyperlinkType="None">
+			<reportElement uuid="da306093-5ff3-4de6-8939-82195a8911f2" key="textField" style="zh" x="167" y="201" width="241" height="28" origin="4" srcId="5"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[轻量级Java EE企业应用实战]]></textContent>
+		</text>
+		<text textHeight="20.53125" lineSpacingFactor="1.140625" leadingOffset="-1.265625" hyperlinkType="None">
+			<reportElement uuid="b12652d9-3da1-4755-8792-057aa0f90c8d" key="textField" style="zh" x="167" y="229" width="241" height="28" origin="4" srcId="6"/>
+			<box>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+			<textContent><![CDATA[疯狂Ajax讲义]]></textContent>
+		</text>
+	</page>
+</jasperPrint>
